@@ -6,6 +6,11 @@ export const environment = {
   production: false
 };
 
+
+export const graphQLURL = {
+  URL: 'https://lojee-app.herokuapp.com/v1/graphql'
+}
+
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
